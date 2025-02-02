@@ -1,8 +1,8 @@
 package parsers
 
 import (
-	"github.com/0xjeffro/tx-parser/solana/programs/pumpfun"
-	"github.com/0xjeffro/tx-parser/solana/types"
+	"github.com/dzhisl/tx-parser/solana/programs/pumpfun"
+	"github.com/dzhisl/tx-parser/solana/types"
 	"github.com/mr-tron/base58"
 )
 

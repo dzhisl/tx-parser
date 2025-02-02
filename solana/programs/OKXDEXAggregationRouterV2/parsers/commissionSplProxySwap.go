@@ -1,13 +1,13 @@
 package parsers
 
 import (
-	"github.com/0xjeffro/tx-parser/solana/globals"
-	"github.com/0xjeffro/tx-parser/solana/programs/OKXDEXAggregationRouterV2"
-	"github.com/0xjeffro/tx-parser/solana/programs/systemProgram"
-	SystemProgramParsers "github.com/0xjeffro/tx-parser/solana/programs/systemProgram/parsers"
-	"github.com/0xjeffro/tx-parser/solana/programs/tokenProgram"
-	TokenProgramParsers "github.com/0xjeffro/tx-parser/solana/programs/tokenProgram/parsers"
-	"github.com/0xjeffro/tx-parser/solana/types"
+	"github.com/dzhisl/tx-parser/solana/globals"
+	"github.com/dzhisl/tx-parser/solana/programs/OKXDEXAggregationRouterV2"
+	"github.com/dzhisl/tx-parser/solana/programs/systemProgram"
+	SystemProgramParsers "github.com/dzhisl/tx-parser/solana/programs/systemProgram/parsers"
+	"github.com/dzhisl/tx-parser/solana/programs/tokenProgram"
+	TokenProgramParsers "github.com/dzhisl/tx-parser/solana/programs/tokenProgram/parsers"
+	"github.com/dzhisl/tx-parser/solana/types"
 )
 
 func CommissionSplProxySwapParser(result *types.ParsedResult, instruction types.Instruction) (*OKXDEXAggregationRouterV2.CommissionSplProxySwapAction, error) {

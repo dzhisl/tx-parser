@@ -2,20 +2,21 @@ package solana
 
 import (
 	"fmt"
-	"github.com/0xjeffro/tx-parser/solana/programs/OKXDEXAggregationRouterV2"
-	"github.com/0xjeffro/tx-parser/solana/programs/jupiterAggregatorV6"
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"github.com/0xjeffro/tx-parser/solana/globals"
-	"github.com/0xjeffro/tx-parser/solana/programs/computeBudget"
-	"github.com/0xjeffro/tx-parser/solana/programs/jupiterDCA"
-	"github.com/0xjeffro/tx-parser/solana/programs/pumpfun"
-	"github.com/0xjeffro/tx-parser/solana/programs/raydiumLiquidityPoolV4"
-	"github.com/0xjeffro/tx-parser/solana/programs/systemProgram"
-	"github.com/0xjeffro/tx-parser/solana/programs/tokenProgram"
-	"github.com/0xjeffro/tx-parser/solana/types"
+	"github.com/dzhisl/tx-parser/solana/programs/OKXDEXAggregationRouterV2"
+	"github.com/dzhisl/tx-parser/solana/programs/jupiterAggregatorV6"
+
+	"github.com/dzhisl/tx-parser/solana/globals"
+	"github.com/dzhisl/tx-parser/solana/programs/computeBudget"
+	"github.com/dzhisl/tx-parser/solana/programs/jupiterDCA"
+	"github.com/dzhisl/tx-parser/solana/programs/pumpfun"
+	"github.com/dzhisl/tx-parser/solana/programs/raydiumLiquidityPoolV4"
+	"github.com/dzhisl/tx-parser/solana/programs/systemProgram"
+	"github.com/dzhisl/tx-parser/solana/programs/tokenProgram"
+	"github.com/dzhisl/tx-parser/solana/types"
 	"github.com/stretchr/testify/assert"
 )
 

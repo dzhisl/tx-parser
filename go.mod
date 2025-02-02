@@ -1,4 +1,4 @@
-module github.com/0xjeffro/tx-parser
+module github.com/dzhisl/tx-parser
 
 go 1.19
 

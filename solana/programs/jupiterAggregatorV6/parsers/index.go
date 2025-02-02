@@ -1,8 +1,8 @@
 package parsers
 
 import (
-	"github.com/0xjeffro/tx-parser/solana/programs/jupiterAggregatorV6"
-	"github.com/0xjeffro/tx-parser/solana/types"
+	"github.com/dzhisl/tx-parser/solana/programs/jupiterAggregatorV6"
+	"github.com/dzhisl/tx-parser/solana/types"
 	"github.com/mr-tron/base58"
 )
 
